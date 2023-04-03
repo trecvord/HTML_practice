@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="static/styles/style.css">
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="page">
+        <div class="header">
+            <div>
+
+                <img src="data:image/jpeg;base64,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" alt="wiki-logo">
+            </div>
+            <ol>
+                <li><a href="#">Заглавная страница</a></li>
+                <li> <a href="#">Содержание</a></li>
+                <li> <a href="#">Избранные статьи</a></li>
+                <li><a href="#">Случайная статья</a></li>
+                <li><a href="#">Текущие события</a></li> 
+                <li><a href="#">Пожертвовать</a></li>   
+
+            </ol> 
+            <ol>
+                <li><a href="#">Заглавная страница</a></li>
+                <li> <a href="#">Содержание</a></li>
+                <li> <a href="#">Избранные статьи</a></li>
+                <li><a href="#">Случайная статья</a></li>
+                <li><a href="#">Текущие события</a></li> 
+                <li><a href="#">Пожертвовать</a></li>   
+
+            </ol> 
+            <ol>
+                <li><a href="#">Заглавная страница</a></li>
+                <li> <a href="#">Содержание</a></li>
+                <li> <a href="#">Избранные статьи</a></li>
+                <li><a href="#">Случайная статья</a></li>
+                <li><a href="#">Текущие события</a></li> 
+                <li><a href="#">Пожертвовать</a></li>   
+
+            </ol> 
+            <ol>
+                <li><a href="#">Заглавная страница</a></li>
+                <li> <a href="#">Содержание</a></li>
+                <li> <a href="#">Избранные статьи</a></li>
+                <li><a href="#">Случайная статья</a></li>
+                <li><a href="#">Текущие события</a></li> 
+                <li><a href="#">Пожертвовать</a></li>   
+
+            </ol> 
+      </div>
+        <div class="section">
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li> <a href="#">Статья</a></li>
+                        <li><a href="#">Обсуждение</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li><a href="#">Читать</a></li>
+                        <li><a href="#">Текущая версия</a></li>
+                        <li><a href="#">Править</a></li>
+                        <li><a href="#">Править код</a></li>
+                        <li><a href="#">История</a></li>
+                        <input type="text" placeholder="Поиск">
+        
+                    </ul>
+                </nav>
+            </div>
+        
+            <div class="text-page">
+                        
+                    <h1>HTML</h1>
+                    <div class="img-container">
+                        <div>
+                            <img class="logo-html" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/80px-HTML5_logo_and_wordmark.svg.png" alt="">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/HTML.svg/274px-HTML.svg.png" alt="HTML pic from wiki">
+                        </div>
+                    </div>
+        
+        
+                    <p> HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки») — стандартизированный язык
+                        гипертекстовой разметки документов для просмотра веб-страниц в браузере. Веб-браузеры получают HTML документ от
+                        сервера по протоколам HTTP/HTTPS или открывают с локального диска, далее интерпретируют код в интерфейс, который
+                        будет отображаться на экране монитора. </p>
+         
+         
+                
+                
+                    <p>Элементы HTML являются строительными блоками HTML страниц. С помощью HTML разные конструкции, изображения и
+                        другие объекты, такие как интерактивная веб-форма, могут быть встроены в отображаемую страницу. HTML
+                        предоставляет средства для создания заголовков, абзацев, списков, ссылок, цитат и других элементов. Элементы
+                        HTML выделяются тегами, записанными с использованием угловых скобок. Такие теги, как img и input ,
+                        напрямую вводят контент на страницу. Другие теги, такие как
+                        окружают и оформляют текст внутри себя и могут включать другие теги в качестве подэлементов. Браузеры не
+                        отображают HTML-теги, но используют их для интерпретации содержимого страницы. </p>
+                
+                    <p>Язык XHTML является более строгим вариантом HTML, он следует синтаксису XML и является приложением языка XML в
+                        области разметки гипертекста. </p>
+                
+                    <p>В HTML можно встроить программный код на языке программирования JavaScript, для управления поведением и
+                        содержанием веб-страниц. Также включение CSS в HTML описывает внешний вид и макет страницы.</p>
+                
+                
+                    <div class="list-container">
+                        <p>Содержание</p>
+                
+                        <ol>
+                            <li><a href="#">Общее представление</a></li>
+                            <li> <a href="#">Браузеры</a></li>
+                            <li> <a href="#">Версии</a></li>
+                            <li><a href="#">Структура HTML-документа</a></li>
+                            <li><a href="#">Рекомендуется</a>
+                                <ol>
+                                    <li> <a href="#">Семантические теги:</a></li>
+                                    <li><a href="#">Специальные символы</a></li>
+                                </ol>
+                            </li>
+                            <li> <a href="#">Браузерные войны</a></li>
+                            <li><a href="#">См. также</a></li>
+                            <li><a href="#">Примечания</a></li>
+                            <li> <a href="#">Литература</a></li>
+                            <li> <a href="#">Ссылки</a></li>
+                        </ol>
+                    </div>
+                
+                    <h2>Общее представление</h2>
+                
+                    <p>Язык гипертекстовой разметки HTML был разработан британским учёным Тимом Бернерсом-Ли приблизительно в 1986—1991
+                        годах в стенах ЦЕРНа в Женеве в Швейцарии[3]. HTML создавался как язык для обмена научной и технической
+                        документацией, пригодный для использования людьми, не являющимися специалистами в области вёрстки. HTML успешно
+                        справлялся с проблемой сложности SGML путём определения небольшого набора структурных и семантических элементов
+                        — дескрипторов. Дескрипторы также часто называют «тегами». С помощью HTML можно легко создать относительно
+                        простой, но красиво оформленный документ. Помимо упрощения структуры документа, в HTML внесена поддержка
+                        гипертекста. Мультимедийные возможности были добавлены позже. </p>
+                
+                    <p>Первым общедоступным описанием HTML был документ «Теги HTML», впервые упомянутый в Интернете Тимом Бернерсом-Ли в
+                        конце 1991 года,[4][5]. В нём описываются 18 элементов, составляющих первоначальный, относительно простой дизайн
+                        HTML. За исключением тега гиперссылки, на них сильно повлиял SGMLguid, внутренний формат документации,
+                        основанный на стандартном обобщенном языке разметки (SGML), в CERN. Одиннадцать из этих элементов всё ещё
+                        существуют в HTML 4[6]. </p>
+                
+                    <p>Изначально язык HTML был задуман и создан как средство структурирования и форматирования документов без их
+                        привязки к средствам воспроизведения (отображения). В идеале, текст с разметкой HTML должен был без
+                        стилистических и структурных искажений воспроизводиться на оборудовании с различной технической оснащённостью
+                        (цветной экран современного компьютера, монохромный экран органайзера, ограниченный по размерам экран мобильного
+                        телефона или устройства и программы голосового воспроизведения текстов). Однако современное применение HTML
+                        очень далеко от его изначальной задачи. Например, тег table
+                        предназначен для создания в документах таблиц, но иногда используется и для оформления размещения элементов
+                        на странице. С течением времени основная идея платформонезависимости языка HTML была принесена в жертву
+                        современным потребностям в мультимедийном и графическом оформлении. </p>
+            </div>
+        </div>
+    </div>
+  
+
+</body>
+
+</html>

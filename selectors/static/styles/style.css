@@ -1,0 +1,24 @@
+
+/* приоритеты
+!important (используется в иск. случаях)
+1 в самой строчке
+2 по id
+3 по классу
+4 по тегу */
+
+.main.border-div {
+    background-color: blueviolet;
+    border-style: dotted;
+}
+
+.main {
+    background-color: aqua;
+}
+
+.border-div {
+    border-style: solid !important;
+}
+
+.main p {
+    font-size: 35px;
+}
